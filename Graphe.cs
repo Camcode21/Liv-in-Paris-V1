@@ -25,8 +25,8 @@ public class Graphe
 
     public void Matrice_Adjacence()
     {
-        int size = noeuds.Count;
-        Matriceadjacence = new int[size, size];
+        int taille = noeuds.Count;
+        Matriceadjacence = new int[taille, taille];
         foreach (var noeud in noeuds.Values)
         {
             foreach (var adjacent in noeud.Adjacents)
